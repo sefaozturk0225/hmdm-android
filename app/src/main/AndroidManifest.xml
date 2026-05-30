@@ -185,7 +185,7 @@
             android:exported="false"/>
 
         <receiver
-            android:name="com.hmdm.launcher.AdminReceiver"
+            android:name="com.tahirova.launcher.AdminReceiver"
             android:label="@string/white_app_name"
             android:exported="true"
             android:permission="android.permission.BIND_DEVICE_ADMIN">
@@ -199,14 +199,14 @@
             </intent-filter>
         </receiver>
 
-        <receiver android:name="com.hmdm.launcher.receiver.SimChangedReceiver"
+        <receiver android:name="com.tahirova.launcher.receiver.SimChangedReceiver"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.SIM_STATE_CHANGED"/>
             </intent-filter>
         </receiver>
 
-        <receiver android:name="com.hmdm.launcher.receiver.ShutdownReceiver"
+        <receiver android:name="com.tahirova.launcher.receiver.ShutdownReceiver"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.ACTION_SHUTDOWN" />
@@ -215,7 +215,7 @@
         </receiver>
 
         <receiver
-            android:name="com.hmdm.launcher.receiver.BootReceiver"
+            android:name="com.tahirova.launcher.receiver.BootReceiver"
             android:label="BootReceiver"
             android:enabled="true"
             android:exported="true">
